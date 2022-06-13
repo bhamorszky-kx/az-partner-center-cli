@@ -1,4 +1,4 @@
-# azureiai-managed-apps
+# az-partner-center-cli
 This application wraps the swagger generate client of the partner ingestion apis. 
 The documentation can be found [here](https://apidocs.microsoft.com/services/partneringestion/#/)
 
@@ -12,14 +12,14 @@ Python 3.7+ (Expected to work with Python 3.6+)
 # Must not use -e when doing pip install
 
 # From Production Release PyPi
-pip install --extra-index-url=https://msazure.pkgs.visualstudio.com/One/_packaging/agai-eap-release/pypi/simple/ azureiai-managed-apps
+pip install az-partner-center-cli
 
 # From Release Candidate PyPi
-pip install --extra-index-url=https://msazure.pkgs.visualstudio.com/One/_packaging/agai-development-pypi/pypi/simple/ azureiai-managed-apps
+pip install --pre az-partner-center-cli
 
 # From Source
-git clone https://msazure.visualstudio.com/One/_git/AGAI-IndustryAI-Template
-pip install src/azureiai-managed-apps
+git clone https://github.com/microsoft/az-partner-center-cli
+pip install azureiai
 ```
 
 ## Azure Partner Center (azpc) CLI Usage
